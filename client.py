@@ -4,7 +4,7 @@ import socket
 def main():
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
-        client.connect(('127.0.0.1', 8080))
+        client.connect(('127.0.0.1', 8000))
     except Exception as e:
         print(e)
 
